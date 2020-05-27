@@ -1,0 +1,81 @@
+.section-footer{
+    // background-color: #0c1524;
+    color: #fff;
+    padding-top: -20rem;
+    position: relative;
+}
+
+
+
+// .section-testimonials{
+//     margin-top: 17.5rem;
+//     margin-bottom: 17.5rem;
+// }
+
+
+.footer-flex-grid {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+
+.footer-flex-grid > .footer-flex-row-item {
+    // flex: 1 1 30%; /*grow | shrink | basis */
+
+    max-width: 100%;
+    height: 23.3rem;
+    padding-top: 4.4rem;
+    padding-left:2.6rem;
+    padding-right: 2.6rem;
+}
+
+.footer-location{
+    width: 35.6rem;
+
+}
+
+.footer-flex-row-item p{
+    color: $color-white;
+    display: inline-block;
+    
+}
+
+
+.footer-contact-us{
+    list-style-type: none;
+}
+
+.footer-about-jobs{
+
+    list-style-type: none;
+}
+
+.icon1{
+    color: $color-white;
+}
+
+i{
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.phone-no{
+    position: relative;
+    left: -5rem;
+}
+
+.email-id{
+    position: relative;
+    left: -5rem;
+}
+
+.footer-logo{
+    padding-left: 2.9rem;
+
+}
